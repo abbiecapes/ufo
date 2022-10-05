@@ -1,0 +1,25 @@
+:: StoryData
+{
+    "ifid": "85B9740C-AD3C-4641-A307-461B95AC56D1",
+    "format": "SugarCube",
+    "format-version": "2.36.1"
+}
+
+:: StoryTitle
+ufo
+
+:: Start
+What are you running from
+
+[[A bad family|family]]
+[[A bad partner|partner]]
+[[A bad life|life]]
+
+:: family
+They suck
+
+:: partner
+they also suck
+
+:: life
+yikes
