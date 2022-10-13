@@ -9,7 +9,10 @@
 UFO
 
 :: Start
+
+<<type 60ms>>
 What are you running from
+
 
 [[A bad family|family]]
 [[A bad partner|partner]]
@@ -22,8 +25,8 @@ Anyone else in the family acted like they never noticed anything wrong.
 [[How awful|awful]]
 
 :: awful 
-
-<<type 80ms>> 
+<</type>>
+<<type 60ms>> 
 You wake up in a panic and frantically look around the room
 
 Your unfamiliar surroundings do nothing to ease your anxiety
