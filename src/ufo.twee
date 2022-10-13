@@ -23,18 +23,16 @@ Anyone else in the family acted like they never noticed anything wrong.
 
 :: awful 
 
-<<type 40ms start 2s>> 
-
+<<type 80ms>> 
 You wake up in a panic and frantically look around the room
 
 Your unfamiliar surroundings do nothing to ease your anxiety
 
 As you regain your composure you [[look over at your alarm clock|alarm]]
+<</type>>
 
 :: alarm
-<<type 40ms element "span">>
-	Type characters from this content every 40 milliseconds, using a <span> as the typing container.
-<</type>>
+
 
 :: partner
 Your partner treated you terribly
