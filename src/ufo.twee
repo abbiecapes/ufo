@@ -32,8 +32,8 @@ Your unfamiliar surroundings do nothing to ease your anxiety
 As you regain your composure you [[look over at your alarm clock|alarm]]
 
 :: alarm
-<<type 40ms class "foo bar">>
-	Type characters from this content every 40 milliseconds, adding classes to the typing container.
+<<type 40ms element "span">>
+	Type characters from this content every 40 milliseconds, using a <span> as the typing container.
 <</type>>
 
 :: partner
