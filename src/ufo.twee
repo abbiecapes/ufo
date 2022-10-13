@@ -32,10 +32,9 @@ Your unfamiliar surroundings do nothing to ease your anxiety
 As you regain your composure you [[look over at your alarm clock|alarm]]
 
 :: alarm
-<<type 40ms start 2s>>
-	Type characters from this content every 40 milliseconds, starting after a 2 second delay.
+<<type 40ms class "foo bar">>
+	Type characters from this content every 40 milliseconds, adding classes to the typing container.
 <</type>>
-
 
 :: partner
 Your partner treated you terribly
