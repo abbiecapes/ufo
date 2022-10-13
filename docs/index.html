@@ -105,12 +105,34 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 
 Anyone else in the family acted like they never noticed anything wrong.
 
-[[How awful|awful]]</tw-passagedata><tw-passagedata pid="3" name="awful" tags="" position="350,100" size="100,100">&lt;&lt;type speed [start delay] [class classes] [element tag] [id ID] [keep|none] [skipkey key]&gt;&gt;
+[[How awful|awful]]</tw-passagedata><tw-passagedata pid="3" name="awful" tags="" position="350,100" size="100,100">&lt;&lt;type 40ms start 2s&gt;&gt; 
+
 You wake up in a panic and frantically look around the room
 
 Your unfamiliar surroundings do nothing to ease your anxiety
 
-As you regain your composure you [[look over at your alarm clock|alarm]]</tw-passagedata><tw-passagedata pid="4" name="alarm" tags="" position="475,100" size="100,100"></tw-passagedata><tw-passagedata pid="5" name="partner" tags="" position="600,100" size="100,100">Your partner treated you terribly
+As you regain your composure you [[look over at your alarm clock|alarm]]</tw-passagedata><tw-passagedata pid="4" name="alarm" tags="" position="475,100" size="100,100">→ Basic
+&lt;&lt;silently&gt;&gt;
+
+	You&#39;ll never see any of this!
+
+&lt;&lt;/silently&gt;&gt;
+
+→ Hiding the guts of a countdown timer
+&lt;&lt;set $seconds to 10&gt;&gt;\
+Countdown: &lt;span id=&quot;countdown&quot;&gt;$seconds seconds remaining&lt;/span&gt;!\
+&lt;&lt;silently&gt;&gt;
+	&lt;&lt;repeat 1s&gt;&gt;
+		&lt;&lt;set $seconds to $seconds - 1&gt;&gt;
+		&lt;&lt;if $seconds gt 0&gt;&gt;
+			&lt;&lt;replace &quot;#countdown&quot;&gt;&gt;$seconds seconds remaining&lt;&lt;/replace&gt;&gt;
+		&lt;&lt;else&gt;&gt;
+			&lt;&lt;replace &quot;#countdown&quot;&gt;&gt;Too Late&lt;&lt;/replace&gt;&gt;
+			/* do something useful here */
+			&lt;&lt;stop&gt;&gt;
+		&lt;&lt;/if&gt;&gt;
+	&lt;&lt;/repeat&gt;&gt;
+&lt;&lt;/silently&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="partner" tags="" position="600,100" size="100,100">Your partner treated you terribly
 
 Hardly giving you the time of day, but somehow expecting so much of you that it was suffocating
 

@@ -22,7 +22,9 @@ Anyone else in the family acted like they never noticed anything wrong.
 [[How awful|awful]]
 
 :: awful 
-<<type speed [start delay] [class classes] [element tag] [id ID] [keep|none] [skipkey key]>>
+
+<<type 40ms start 2s>> 
+
 You wake up in a panic and frantically look around the room
 
 Your unfamiliar surroundings do nothing to ease your anxiety
@@ -30,7 +32,28 @@ Your unfamiliar surroundings do nothing to ease your anxiety
 As you regain your composure you [[look over at your alarm clock|alarm]]
 
 :: alarm
+→ Basic
+<<silently>>
 
+	You'll never see any of this!
+
+<</silently>>
+
+→ Hiding the guts of a countdown timer
+<<set $seconds to 10>>\
+Countdown: <span id="countdown">$seconds seconds remaining</span>!\
+<<silently>>
+	<<repeat 1s>>
+		<<set $seconds to $seconds - 1>>
+		<<if $seconds gt 0>>
+			<<replace "#countdown">>$seconds seconds remaining<</replace>>
+		<<else>>
+			<<replace "#countdown">>Too Late<</replace>>
+			/* do something useful here */
+			<<stop>>
+		<</if>>
+	<</repeat>>
+<</silently>>
 
 
 :: partner
