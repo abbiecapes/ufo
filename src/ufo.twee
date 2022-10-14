@@ -18,7 +18,7 @@ What are you running from
 [[A bad partner|partner]]
 <</type>>
 
-<<type 50ms>>
+<<type 60ms>>
 :: family
 Your family life was not great, one parent expecting the world, and the other? There but not present.
 
@@ -40,10 +40,6 @@ As you regain your composure you [[look over at your alarm clock|alarm]]
 
 :: alarm
 [image[3am]]
-
-
-
-
 :: partner
 Your partner treated you terribly
 
