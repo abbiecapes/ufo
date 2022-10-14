@@ -9,11 +9,12 @@
 UFO
 
 :: Start
+<<<<type 40ms>>
+    What are you running from?
 
- What are you running from?
-
-[[A bad family|family]]
-[[A bad ex partner|partner]]   
+    [[A bad family|family]]
+    [[A bad ex partner|partner]]
+<</type>>>> 
 
 :: family 
 Your family was awful to you
