@@ -9,5 +9,24 @@
 UFO
 
 :: Start
+<<type 40ms>>
+What are you running from?
 
-I deleted it 
+[[A bad family|family]]
+[[A bad ex partner|partner]]
+<</type>>
+
+<<type 40ms>>
+:: family 
+Your family was awful to you
+
+Unaccaepting 
+
+Unintereste
+
+Unloving 
+
+[[I'm sorry|sorry]]
+<</type>>
+
+:: sorry
