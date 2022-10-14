@@ -10,35 +10,4 @@ UFO
 
 :: Start
 
-<<type 50ms>>
-What are you running from
-
-[[A bad family|family]]
-[[A bad partner|partner]]
-<</type>>
-
-<<type 50ms>>
-:: family
-Your family life was not great, one parent expecting the world, and the other? There but not present.
-
-Anyone else in the family acted like they never noticed anything wrong.
-
-[[How awful|awful]]
-<</type>>
-
-
-:: awful 
-
-<<type 50ms>> 
-You wake up in a panic and frantically look around the room
-
-Your unfamiliar surroundings do nothing to ease your anxiety
-
-As you regain your composure you [[look over at your alarm clock|alarm]]
-<</type>>
-:: partner
-Your partner treated you terribly
-
-Hardly giving you the time of day, but somehow expecting so much of you that it was suffocating
-
-[[How awful|awful]]
+I deleted it 
