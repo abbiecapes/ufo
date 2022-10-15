@@ -42,3 +42,16 @@ UFO
 
 :: clock
 [img[3am.png]]
+<<<<type 40ms >>
+    Jesus. 3 am?
+
+    You wonder what could've woken you up at such a sterotypical time
+
+    You don't wonder long though as fatigue over takes any curiosity
+    
+    Moving really takes a number on you
+
+    [[Go back to sleep|sleep]]
+<</type>>>>
+
+:: sleep
