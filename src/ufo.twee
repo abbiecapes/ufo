@@ -17,7 +17,7 @@ UFO
 <</type>>
 
 :: family
-<<<<type 50ms>>  
+<<type 50ms>>  
     Your family was awful to you
     
     Unaccepting
@@ -27,6 +27,18 @@ UFO
     Unloving
 
     [[I'm sorry|sorry]]
-<</type>>>>
+<</type>>
 
 :: sorry
+<<type 40ms start 2s>>
+    You startle awake after dreaming of nothing in particular
+
+    You panic a little, looking around your unfamiliar surroundings
+
+    Waking up in a new place is always weird
+
+    [[Look over at your alarm clock|clock]] 
+<</type>>
+
+:: clock
+[img[3am.png]]
