@@ -16,15 +16,17 @@ UFO
     [[A bad ex partner|partner]]
 <</type>>
 
-:: family 
-Your family was awful to you
+:: family
+<<<<type 50ms>>  
+    Your family was awful to you
+    
+    Unaccepting
 
-Unaccaepting 
+    Uninterested
 
-Uninterested
+    Unloving
 
-Unloving 
-
-[[I'm sorry|sorry]]
+    [[I'm sorry|sorry]]
+<</type>>>>
 
 :: sorry
