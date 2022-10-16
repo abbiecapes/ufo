@@ -9,7 +9,7 @@
 UFO
 
 :: Start
-<<type 80ms >>
+<<type 100ms >>
     <h1>UFO</h1>
     <h3>[[START?|start]]</h3>
 <</type>>
