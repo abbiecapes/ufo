@@ -9,6 +9,11 @@
 UFO
 
 :: Start
+<<type 60ms >>
+    <h1>UFO</h1>
+    <h3>[[START?|start]]</h3>
+<</type>>
+
 <<type 40ms>>
     What are you running from?
 
@@ -84,4 +89,6 @@ UFO
 :: wake
 <<type 40ms >>
     You wake up a bit less abruptly than a few hours ago, but feel just as shitty
+
+    In the light of day your grandma's old place isn't so bad, just dated and full of your budget friendly
 <</type>>
