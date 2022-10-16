@@ -9,9 +9,9 @@
 UFO
 
 :: Start
-<<type 100ms >>
+<<type 120ms >>
     <h1>UFO</h1>
-    <h3>[[START?|start]]</h3>
+    <h3>[[START ?|start]]</h3>
 <</type>>
 
 :: start
@@ -91,5 +91,6 @@ UFO
 <<type 40ms >>
     You wake up a bit less abruptly than a few hours ago, but feel just as shitty
 
-    In the light of day your grandma's old place isn't so bad, just dated and full of your budget friendly
+    In the light of day your grandma's old place isn't so bad, just dated and full of your <s>shitty</s> budget friendly furniture and other possesions
+    
 <</type>>
