@@ -42,7 +42,7 @@ UFO
 
 :: clock
 [img[3am.png]]
-<<<<type 40ms >>
+<<type 40ms >>
     Jesus. 3 am?
 
     You wonder what could've woken you up at such a sterotypical time
@@ -52,8 +52,31 @@ UFO
     Moving really takes a number on you
 
     [[Go back to sleep|sleep]]
-    [[dont go to sleep|sleep]]
-<</type>>>>
+    [[Stay up a little longer|stay]]
+<</type>>
 
 :: sleep
-these should both go here
+<<type 40ms >>
+    The bed might be unfamiliar but it's still warm
+
+    You fall asleep listening to the unsettling sounds of the house and that which surrounds it 
+
+    <<type 40ms start 3s >>
+        [[wake up|wake]]
+    <</type>>
+<</type>>
+
+:: stay
+<<type 40ms >>
+    You decide to stay awake a little longer
+
+    The new house noises are getting to you more than you thought they would 
+
+    It's weird, no one ever thinks about how loud a quiet house can be when it's new
+
+    As you think these thoughts, you fall asleep against your will
+
+    <<type 40ms start 3s>>
+        [[wake up|wake]]
+    <</type>>
+<</type>>
