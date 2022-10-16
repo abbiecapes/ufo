@@ -22,6 +22,99 @@ UFO
     [[A bad ex partner|partner]]
 <</type>>
 
+:: partner
+<<type 40ms >>
+    He was awful to you
+
+    Cruel
+
+    Unloving
+
+    A liar 
+
+    It didn't start that way of course, it never does
+
+    [[I'm sorry|sorry]]
+<</type>>
+
+:: sorry
+<<type 40ms start 2s>>
+    You startle awake after dreaming of nothing in particular
+
+    You panic a little, looking around your unfamiliar surroundings
+
+    Waking up in a new place is always weird
+
+    [[Look over at your alarm clock|clock]] 
+<</type>>
+
+:: clock
+[img[3am.png]]
+<<type 40ms >>
+    Jesus. 3 am?
+
+    You wonder what could've woken you up at such a sterotypical time
+
+    You don't wonder long though as fatigue over takes any curiosity
+    
+    Moving really takes a number on you
+
+    [[Go back to sleep|sleep]]
+    [[Stay up a little longer|stay]]
+<</type>>
+
+:: sleep
+<<type 40ms >>
+    The bed might be unfamiliar but it's still warm
+
+    You fall asleep listening to the unsettling sounds of the house and that which surrounds it 
+
+    <<type 40ms start 3s >>
+        [[wake up|wake]]
+    <</type>>
+<</type>>
+
+:: stay
+<<type 40ms >>
+    You decide to stay awake a little longer
+
+    The new house noises are getting to you more than you thought they would 
+
+    It's weird, no one ever thinks about how loud a quiet house can be when it's new
+
+    As you think these thoughts, you fall asleep against your will
+
+    <<type 40ms start 3s>>
+        [[wake up|wake]]
+    <</type>>
+<</type>>
+
+:: wake
+<<type 40ms >>
+    You wake up a bit less abruptly than a few hours ago, but feel just as shitty
+
+    In the light of day your grandma's old place isn't so bad, just dated and full of your <s>shitty</s> budget friendly furniture and other possesions
+
+    Unpacking everything sucks but you know you need to do it eventually
+
+    What should you start unpacking?
+
+    [[Your clothes|clothes]]
+    [[Your dishes|dishes]]
+    [[Your books|books]]
+<</type>>
+
+
+
+
+
+
+
+
+
+
+
+
 :: family
 <<type 50ms>>  
     Your family was awful to you
@@ -114,5 +207,17 @@ UFO
 
     And new clothes is more money. A lot more money
 
-    You can't think about this anymore [[try unpacking something else|wake]]
+    You can't think about this anymore [[unpack something else|unpack]]
+<</type>>
+
+:: unpack
+<<type 40ms >>
+    [[Your clothes|clothes]]
+    [[Your dishes|dishes]]
+    [[Your books|books]]
+<</type>>
+
+:: dishes
+<<type 40ms >>
+    Walking 
 <</type>>
