@@ -80,3 +80,8 @@ UFO
         [[wake up|wake]]
     <</type>>
 <</type>>
+
+:: wake
+<<type 40ms >>
+    You wake up a bit less abruptly than a few hours ago, but feel just as shitty
+<</type>>
