@@ -9,11 +9,12 @@
 UFO
 
 :: Start
-<<type 60ms >>
+<<type 80ms >>
     <h1>UFO</h1>
     <h3>[[START?|start]]</h3>
 <</type>>
 
+:: start
 <<type 40ms>>
     What are you running from?
 
