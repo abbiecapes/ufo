@@ -92,5 +92,27 @@ UFO
     You wake up a bit less abruptly than a few hours ago, but feel just as shitty
 
     In the light of day your grandma's old place isn't so bad, just dated and full of your <s>shitty</s> budget friendly furniture and other possesions
-    
+
+    Unpacking everything sucks but you know you need to do it eventually
+
+    What should you start unpacking?
+
+    [[Your clothes|clothes]]
+    [[Your dishes|dishes]]
+    [[Your books|books]]
+<</type>>
+
+:: clothes
+<<type 40s >>
+    You unzip one of the Ikea bags that hold half of you wardrobe
+
+    There's no way your South Florida shorts and sundresses are going to hold up in the Michigan winter 
+
+    You sigh and put your favorite sundress back on top of the pile
+
+    It might have been worth it to run from your family but damn you're gonna miss the warmth
+
+    And new clothes is more money. A lot more money
+
+    You can't think about this anymore [[try unpacking something else|wake]]
 <</type>>
