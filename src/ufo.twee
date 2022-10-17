@@ -135,7 +135,7 @@ UFO
     Chores sound exhausting right now [[unpack something else|unpack]]
 <</type>>
  
- :: books2
+ :: books2 
 <<type 40ms >>
     You wander into the living room where your book cases are already set up
 
@@ -153,11 +153,77 @@ UFO
 
     He must have put it in there to keep his fingers in your life 
 
-    Alright maybe unpacking isn't the thing to be done today
+    Maybe unpacking isn't the thing to be done today
 
     [[Go back upstairs|upstairs]]
 <</type>>
  
+ :: upstairs
+<<type 40ms >>
+    Alright, it's time to go into town, you've put it off long enough
+
+    You change out of your pjs and into some jeans 
+
+    Which shoes to wear...
+
+    [[Boots?|boots]]
+    [[Running shoes?|shoes]]
+    
+<</type>>
+
+:: boots
+<<type 40ms >>
+    You shove your feet into your old work boots
+
+    They are way heavier than you remember 
+
+    Hope you aren't chased
+
+    What an odd thing to think
+
+    Ready to go?
+
+    [[yes|yes]]
+    [[no|no]]
+<</type>>
+
+:: shoes
+<<type 40ms >>
+    You slip on your running shoes, regretting your choice since they look so dorky
+
+    Well at least if you get chased you'll have a chance 
+
+    What an odd thing to think
+
+    Ready to go?
+
+    [[yes|yes]]
+    [[no|no]]
+<</type>>
+
+:: no
+<<type 40ms >>
+    Aw you don't want to go?
+
+    That sucks
+
+    [[Open the front door|yes]]
+<</type>>
+
+:: yes
+<<type 40ms >>
+    Alright, ready to explore this new town 
+
+    You wonder if they others will think it odd that you've been hear two weeks and haven't ventured out
+
+    Small towns can be odd like that.
+
+    Everyone knows everything 
+    <<type 40ms start 3s >>
+        [[Off you go|outside]]
+    <</type>>
+
+<</type>>
 
 
 
@@ -354,10 +420,25 @@ UFO
 
     That sucks
 
-    [[Open the front door|door]]
+    [[Open the front door|yes]]
 <</type>>
 
 :: yes
 <<type 40ms >>
-    
+    Alright, ready to explore this new town 
+
+    You wonder if they others will think it odd that you've been hear two weeks and haven't ventured out
+
+    Small towns can be odd like that.
+
+    Everyone knows everything 
+    <<type 40ms start 3s >>
+        [[Off you go|outside]]
+    <</type>>
+
+<</type>>
+
+:: Outside 
+<<type 40ms >>
+    It's an unfourtunately beautiful day, you were hoping for an excuse to go back inside 
 <</type>>

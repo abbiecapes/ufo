@@ -196,7 +196,7 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
     Chores sound exhausting right now [[unpack something else|unpack]]
 &lt;&lt;/type&gt;&gt;
  
- :: books2
+ :: books2 
 &lt;&lt;type 40ms &gt;&gt;
     You wander into the living room where your book cases are already set up
 
@@ -214,10 +214,65 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 
     He must have put it in there to keep his fingers in your life 
 
-    Alright maybe unpacking isn&#39;t the thing to be done today
+    Maybe unpacking isn&#39;t the thing to be done today
 
     [[Go back upstairs|upstairs]]
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="family" tags="" position="100,225" size="100,100">&lt;&lt;type 50ms&gt;&gt;  
+&lt;&lt;/type&gt;&gt;
+ 
+ :: upstairs
+&lt;&lt;type 40ms &gt;&gt;
+    Alright, it&#39;s time to go into town, you&#39;ve put it off long enough
+
+    You change out of your pjs and into some jeans 
+
+    Which shoes to wear...
+
+    [[Boots?|boots]]
+    [[Running shoes?|shoes]]
+    
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="boots" tags="" position="100,225" size="100,100">&lt;&lt;type 40ms &gt;&gt;
+    You shove your feet into your old work boots
+
+    They are way heavier than you remember 
+
+    Hope you aren&#39;t chased
+
+    What an odd thing to think
+
+    Ready to go?
+
+    [[yes|yes]]
+    [[no|no]]
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="12" name="shoes" tags="" position="225,225" size="100,100">&lt;&lt;type 40ms &gt;&gt;
+    You slip on your running shoes, regretting your choice since they look so dorky
+
+    Well at least if you get chased you&#39;ll have a chance 
+
+    What an odd thing to think
+
+    Ready to go?
+
+    [[yes|yes]]
+    [[no|no]]
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="13" name="no" tags="" position="350,225" size="100,100">&lt;&lt;type 40ms &gt;&gt;
+    Aw you don&#39;t want to go?
+
+    That sucks
+
+    [[Open the front door|yes]]
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="yes" tags="" position="475,225" size="100,100">&lt;&lt;type 40ms &gt;&gt;
+    Alright, ready to explore this new town 
+
+    You wonder if they others will think it odd that you&#39;ve been hear two weeks and haven&#39;t ventured out
+
+    Small towns can be odd like that.
+
+    Everyone knows everything 
+    &lt;&lt;type 40ms start 3s &gt;&gt;
+        [[Off you go|outside]]
+    &lt;&lt;/type&gt;&gt;
+
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="15" name="family" tags="" position="600,225" size="100,100">&lt;&lt;type 50ms&gt;&gt;  
     Your family was awful to you
     
     Unaccepting
@@ -227,11 +282,11 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
     Unloving
 
     [[I&#39;m sorry|sorry]]
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="12" name="unpack" tags="" position="225,225" size="100,100">&lt;&lt;type 40ms &gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="16" name="unpack" tags="" position="725,225" size="100,100">&lt;&lt;type 40ms &gt;&gt;
     [[Your clothes|clothes]]
     [[Your dishes|dishes]]
     [[Your books|books]]
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="13" name="dishes" tags="" position="350,225" size="100,100">&lt;&lt;type 40ms &gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="17" name="dishes" tags="" position="850,225" size="100,100">&lt;&lt;type 40ms &gt;&gt;
     You take the creaky stairs down to the kitchen where your few boxes of &lt;s&gt;shitty&lt;/s&gt; affordable dishes sit 
 
     Most of the dishes were parts of dollar store sets that you stowed away in order to prepare for your run from home
@@ -243,7 +298,7 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
     You carefully place the dishes in the sink to wash the move off of them later 
 
     Chores sound exhausting right now [[unpack something else|unpack]]
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="books" tags="" position="475,225" size="100,100">&lt;&lt;type 40ms &gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="books" tags="" position="975,225" size="100,100">&lt;&lt;type 40ms &gt;&gt;
     You wander into the living room where your book cases are already set up
 
     They lay empty at the moment and you think of how cozy it&#39;ll be once they&#39;re filled 
@@ -264,7 +319,7 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 
     [[Go back upstairs|upstairs]]
 
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="15" name="upstairs" tags="" position="600,225" size="100,100">&lt;&lt;type 40ms &gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="19" name="upstairs" tags="" position="1100,225" size="100,100">&lt;&lt;type 40ms &gt;&gt;
     Alright, it&#39;s time to go into town, you&#39;ve put it off long enough
 
     You change out of your pjs and into some jeans 
@@ -274,38 +329,8 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
     [[Boots?|boots]]
     [[Running shoes?|shoes]]
     
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="16" name="boots" tags="" position="725,225" size="100,100">&lt;&lt;type 40ms &gt;&gt;
-    You shove your feet into your old work boots
-
-    They are way heavier than you remember 
-
-    Hope you aren&#39;t chased
-
-    What an odd thing to think
-
-    Ready to go?
-
-    [[yes|yes]]
-    [[no|no]]
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="17" name="shoes" tags="" position="850,225" size="100,100">&lt;&lt;type 40ms &gt;&gt;
-    You slip on your running shoes, regretting your choice since they look so dorky
-
-    Well at least if you get chased you&#39;ll have a chance 
-
-    What an odd thing to think
-
-    Ready to go?
-
-    [[yes|yes]]
-    [[no|no]]
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="no" tags="" position="975,225" size="100,100">&lt;&lt;type 40ms &gt;&gt;
-    Aw you don&#39;t want to go?
-
-    That sucks
-
-    [[Open the front door|door]]
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="19" name="yes" tags="" position="1100,225" size="100,100">&lt;&lt;type 40ms &gt;&gt;
-    
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="20" name="Outside" tags="" position="1225,225" size="100,100">&lt;&lt;type 40ms &gt;&gt;
+    It&#39;s an unfourtunately beautiful day, you were hoping for an excuse to go back inside 
 &lt;&lt;/type&gt;&gt;</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS */
