@@ -100,15 +100,64 @@ UFO
     What should you start unpacking?
 
     [[Your clothes|clothes]]
-    [[Your dishes|dishes]]
-    [[Your books|books]]
+    [[Your dishes|dishes2]]
+    [[Your books|books2]]
 <</type>>
 
+:: clothes
 
+ <<type 40ms>>
+    You unzip one of the Ikea bags that hold half of you wardrobe
 
+    There's no way your South Florida shorts and sundresses are going to hold up in the Michigan winter 
 
+    You sigh and put your favorite sundress back on top of the pile
 
+    It might have been worth it to run from your family but damn you're gonna miss the warmth
 
+    And new clothes is more money. A lot more money
+
+    You can't think about this anymore [[unpack something else|unpack]]
+<</type>>
+
+:: dishes2
+ <<type 40ms >>
+    You take the creaky stairs down to the kitchen where your few boxes of <s>shitty</s> affordable dishes sit 
+
+    Most of the dishes were parts of dollar store sets that you stowed away in order to prepare for your run from home
+
+    As if your family would ever give you the nice china 
+
+    The half set with little green flowers was still your favorite
+
+    You carefully place the dishes in the sink to wash the move off of them later 
+
+    Chores sound exhausting right now [[unpack something else|unpack]]
+<</type>>
+ 
+ :: books2
+<<type 40ms >>
+    You wander into the living room where your book cases are already set up
+
+    They lay empty at the moment and you think of how cozy it'll be once they're filled 
+
+    You open up the first box, feeling at least a little optimistic about your situation 
+
+    Only for you to open the box to <em>The Catcher in the Rye</em> 
+
+    Your ex's copy 
+
+    That asshole 
+
+    You know you didn't pack that awful book
+
+    He must have put it in there to keep his fingers in your life 
+
+    Alright maybe unpacking isn't the thing to be done today
+
+    [[Go back upstairs|upstairs]]
+<</type>>
+ 
 
 
 
@@ -252,5 +301,63 @@ UFO
 
     Alright maybe unpacking isn't the thing to be done today
 
+    [[Go back upstairs|upstairs]]
+
+<</type>>
+
+:: upstairs
+<<type 40ms >>
+    Alright, it's time to go into town, you've put it off long enough
+
+    You change out of your pjs and into some jeans 
+
+    Which shoes to wear...
+
+    [[Boots?|boots]]
+    [[Running shoes?|shoes]]
+    
+<</type>>
+
+:: boots
+<<type 40ms >>
+    You shove your feet into your old work boots
+
+    They are way heavier than you remember 
+
+    Hope you aren't chased
+
+    What an odd thing to think
+
+    Ready to go?
+
+    [[yes|yes]]
+    [[no|no]]
+<</type>>
+
+:: shoes
+<<type 40ms >>
+    You slip on your running shoes, regretting your choice since they look so dorky
+
+    Well at least if you get chased you'll have a chance 
+
+    What an odd thing to think
+
+    Ready to go?
+
+    [[yes|yes]]
+    [[no|no]]
+<</type>>
+
+:: no
+<<type 40ms >>
+    Aw you don't want to go?
+
+    That sucks
+
+    [[Open the front door|door]]
+<</type>>
+
+:: yes
+<<type 40ms >>
     
 <</type>>
