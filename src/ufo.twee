@@ -124,9 +124,9 @@ UFO
  <<type 40ms >>
     You take the creaky stairs down to the kitchen where your few boxes of <s>shitty</s> affordable dishes sit 
 
-    Most of the dishes were parts of dollar store sets that you stowed away in order to prepare for your run from home
+    Most of the dishes were parts of plastic dollar store sets that you stowed away in order to prepare for your run from him
 
-    As if your family would ever give you the nice china 
+    The dishes were always the first thing he would break
 
     The half set with little green flowers was still your favorite
 
@@ -381,7 +381,121 @@ UFO
 <</type>>
 
 
+:: run
+<<type 40ms >>
+    You run
 
+    Tearing through the woods
+
+    Getting scratched and scraped
+
+    Tripping
+
+    Falling
+
+    Getting up
+
+    Running
+
+    What are you running from?
+
+    Are you even being chased?
+
+    You should [[check behind you|behind]]  
+<</type>>
+
+:: behind 
+<<type 40ms >>
+    You're so scared to look behind you
+
+    You're so scared to see if you have a reason to be running
+
+    You look behind you
+
+    <<type 40ms start2s >>
+        You see
+
+        Me
+        <<type 40ms start2s >>
+            You're running from me 
+
+            You didn't really think there were aliens in the woods did you?
+
+            No no, that was me
+
+            I've been chasing you this whole time
+
+            Slowly
+
+            Watching you in your sweet little house
+
+            Waiting 
+            
+            Waiting for the day when you finally come out to see me
+
+            [[Why are you running?|why]]
+        <</type>>
+    <</type>>
+<</type>>
+
+:: why 
+<<type 40ms >>
+    You were so intent on seeing an alien today
+
+    You were so scared you might, but you still wanted to
+
+    Why won't you look at me?
+
+    Scared you'll see him?
+
+    Of course not that would be silly
+    
+    I'm sure you're just nervous
+
+    Scared to enter this wonderful new part of your life
+
+    <<type 40ms start 2s >>
+         Are you scared?
+
+    [[yes|yes3]]
+    [[no|no3]]
+    <</type>>
+   
+<</type>>
+
+:: no3
+<<type 40ms >>
+    Liar
+
+    <<type 40ms start2s >>
+        Oh you tripped 
+
+        You poor sweet thing
+
+        If you weren't scared, why were you running?
+
+        And why
+
+        Are you screaming so loud        
+    <</type>>
+<</type>>
+
+:: yes3
+<<type 40ms >>
+    Oh darling, I know you are
+
+    <<type 40ms start2s >>
+        Oh you poor sweet thing
+        
+        You tripped 
+
+        I know you're scared, but we can just talk about it
+
+        But why
+
+        Are you screaming so loud        
+    <</type>>
+<</type>>
 
 
 
@@ -754,4 +868,120 @@ UFO
              
      <</type>>
      <</type>>
+<</type>>
+
+:: run
+<<type 40ms >>
+    You run
+
+    Tearing through the woods
+
+    Getting scratched and scraped
+
+    Tripping
+
+    Falling
+
+    Getting up
+
+    Running
+
+    What are you running from?
+
+    Are you even being chased?
+
+    You should [[check behind you|behind]]  
+<</type>>
+
+:: behind 
+<<type 40ms >>
+    You're so scared to look behind you
+
+    You're so scared to see if you have a reason to be running
+
+    You look behind you
+
+    <<type 40ms start2s >>
+        You see
+
+        Me
+        <<type 40ms start2s >>
+            You're running from me 
+
+            You didn't really think there were aliens in the woods did you?
+
+            No no, that was me
+
+            I've been chasing you this whole time
+
+            Slowly
+
+            Watching you in your sweet little house
+
+            Waiting 
+            
+            Waiting for the day when you finally come out to see me
+
+            [[Why are you running?|why]]
+        <</type>>
+    <</type>>
+<</type>>
+
+:: why 
+<<type 40ms >>
+    You were so intent on seeing an alien today
+
+    You were so scared you might, but you still wanted to
+
+    Why won't you look at me?
+
+    Scared you'll see your mother?
+
+    Of course not that would be silly
+
+    I'm sure you're just nervous
+
+    Scared to enter this wonderful new part of your life
+
+    <<type 40ms start 2s >>
+         Are you scared?
+
+    [[yes|yes3]]
+    [[no|no3]]
+    <</type>>
+   
+<</type>>
+
+:: no3
+<<type 40ms >>
+    Liar
+
+    <<type 40ms start2s >>
+        Oh you tripped 
+
+        You poor sweet thing
+
+        If you weren't scared, why were you running?
+
+        And why
+
+        Are you screaming so loud        
+    <</type>>
+<</type>>
+
+:: yes3
+<<type 40ms >>
+    Oh darling, I know you are
+
+    <<type 40ms start2s >>
+        Oh you poor sweet thing
+        
+        You tripped 
+
+        I know you're scared, but we can just talk about it
+
+        But why
+
+        Are you screaming so loud        
+    <</type>>
 <</type>>
