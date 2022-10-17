@@ -296,6 +296,102 @@ UFO
 <</type>>
 
 
+:: examine 
+<<type 40ms >>
+    It's almost the size of your house
+
+    It's dark
+
+    Metallic 
+
+    You have to see more
+
+    [[Go left?|left1]]
+    [[Or right?|right1]]
+<</type>>
+
+:: left1
+<<type 40ms >>
+    You go around to the left side
+
+    It looks like the front of the ship
+
+    If something like this even has a front
+
+    A smooth pane gives the impression of a window, but you can see through it
+
+    The window wraps around another few feet past around the craft
+
+    [[Follow it|follow]]
+<</type>>
+
+:: right1
+<<type 40ms >>
+    You go around the right side
+
+    It seems like the back of the ship
+
+    If something like this even has a front
+
+    Wrapping around the side other side of the ship is something smooth and glossy
+
+    A window maybe?
+
+    [[Follow it|follow]]
+<</type>>
+
+:: follow
+<<type 40ms >>
+    You follow the window to the other side of the ship, tracing your hand along the cool, smooth surface
+
+     You find yourself at the front? Back? the whatever of the craft
+
+     and look at you reflection in the glass
+
+     <<type 40ms start2s >>
+     You lose yourself in thought for a moment and, somehow it's darker...
+
+     You straighten yourself, maybe it's time to go back home you think
+
+     As you contemplate which direction your house is you hear
+
+     <<type 40ms start2s >>
+         <h1>BANG</h1>
+
+        <h1>BANG</h1>
+        <h1>BANG</h1>
+        <h3>BANG BANG BANG BANG BANG BANG BANG</h3>
+           
+        You are terrifed
+
+        <h1>BANG</h1>
+
+        You are frozen
+
+        <h1>BANG</h1>
+
+        It's coming from inside the ship
+
+        <h1>BANG</h1>
+
+        [[Run|run]]
+             
+     <</type>>
+     <</type>>
+<</type>>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 :: family
@@ -576,3 +672,86 @@ UFO
     [[Examine|examine]]
 <</type>>
 
+:: examine 
+<<type 40ms >>
+    It's almost the size of your house
+
+    It's dark
+
+    Metallic 
+
+    You have to see more
+
+    [[Go left?|left1]]
+    [[Or right?|right1]]
+<</type>>
+
+:: left1
+<<type 40ms >>
+    You go around to the left side
+
+    It looks like the front of the ship
+
+    If something like this even has a front
+
+    A smooth pane gives the impression of a window, but you can see through it
+
+    The window wraps around another few feet past around the craft
+
+    [[Follow it|follow]]
+<</type>>
+
+:: right1
+<<type 40ms >>
+    You go around the right side
+
+    It seems like the back of the ship
+
+    If something like this even has a front
+
+    Wrapping around the side other side of the ship is something smooth and glossy
+
+    A window maybe?
+
+    [[Follow it|follow]]
+<</type>>
+
+:: follow
+<<type 40ms >>
+    You follow the window to the other side of the ship, tracing your hand along the cool, smooth surface
+
+     You find yourself at the front? Back? the whatever of the craft
+
+     and look at you reflection in the glass
+
+     <<type 40ms start2s >>
+     You lose yourself in thought for a moment and, somehow it's darker...
+
+     You straighten yourself, maybe it's time to go back home you think
+
+     As you contemplate which direction your house is you hear
+
+     <<type 40ms start2s >>
+         <h1>BANG</h1>
+
+        <h1>BANG</h1>
+        <h1>BANG</h1>
+        <h3>BANG BANG BANG BANG BANG BANG BANG</h3>
+           
+        You are terrifed
+
+        <h1>BANG</h1>
+
+        You are frozen
+
+        <h1>BANG</h1>
+
+        It's coming from inside the ship
+
+        <h1>BANG</h1>
+
+        [[Run|run]]
+             
+     <</type>>
+     <</type>>
+<</type>>
