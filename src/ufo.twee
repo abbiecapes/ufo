@@ -493,11 +493,16 @@ UFO
 
         But why
 
-        Are you screaming so loud        
+        [[Are you screaming so loud|screaming]]       
     <</type>>
 <</type>>
 
+:: screaming
+<<type 50ms start 3s >>
+    You weren't fast enough
 
+    <h1> END </h1>
+<</type>>
 
 
 
@@ -973,7 +978,7 @@ UFO
 <<type 40ms >>
     Oh darling, I know you are
 
-    <<type 40ms start2s >>
+    <<type 40ms start 2s >>
         Oh you poor sweet thing
         
         You tripped 
@@ -982,6 +987,13 @@ UFO
 
         But why
 
-        Are you screaming so loud        
+        [[Are you screaming so loud|screaming]]        
     <</type>>
+<</type>>
+
+:: screaming
+<<type 50ms start 3s >>
+    You weren't fast enough
+
+    <h1> END </h1>
 <</type>>
