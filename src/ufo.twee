@@ -901,11 +901,11 @@ UFO
 
     You look behind you
 
-    <<type 40ms start2s >>
+    <<type 40ms start 2s >>
         You see
 
         Me
-        <<type 40ms start2s >>
+        <<type 40ms start 2s >>
             You're running from me 
 
             You didn't really think there were aliens in the woods did you?
@@ -956,7 +956,7 @@ UFO
 <<type 40ms >>
     Liar
 
-    <<type 40ms start2s >>
+    <<type 40ms start 2s >>
         Oh you tripped 
 
         You poor sweet thing
