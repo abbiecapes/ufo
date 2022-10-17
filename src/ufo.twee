@@ -348,14 +348,14 @@ UFO
 
      and look at you reflection in the glass
 
-     <<type 40ms start2s >>
+     <<type 40ms start 2s >>
      You lose yourself in thought for a moment and, somehow it's darker...
 
      You straighten yourself, maybe it's time to go back home you think
 
      As you contemplate which direction your house is you hear
 
-     <<type 40ms start2s >>
+     <<type 40ms start 2s >>
          <h1>BANG</h1>
 
         <h1>BANG</h1>
@@ -412,11 +412,11 @@ UFO
 
     You look behind you
 
-    <<type 40ms start2s >>
+    <<type 40ms start 2s >>
         You see
 
         Me
-        <<type 40ms start2s >>
+        <<type 40ms start 2s >>
             You're running from me 
 
             You didn't really think there were aliens in the woods did you?
@@ -467,7 +467,7 @@ UFO
 <<type 40ms >>
     Liar
 
-    <<type 40ms start2s >>
+    <<type 40ms start 2s >>
         Oh you tripped 
 
         You poor sweet thing
@@ -484,7 +484,7 @@ UFO
 <<type 40ms >>
     Oh darling, I know you are
 
-    <<type 40ms start2s >>
+    <<type 40ms start 2s >>
         Oh you poor sweet thing
         
         You tripped 
@@ -845,7 +845,7 @@ UFO
 
      As you contemplate which direction your house is you hear
 
-     <<type 40ms start2s >>
+     <<type 40ms start 2s >>
          <h1>BANG</h1>
 
         <h1>BANG</h1>
