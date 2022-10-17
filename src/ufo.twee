@@ -225,7 +225,75 @@ UFO
 
 <</type>>
 
+:: outside 
+<<type 40ms >>
+    It's an unfourtunately beautiful day, you were hoping for an excuse to go back inside 
 
+    You walk down the path away from the house
+
+    The forest that surrounds the cottage is terrifying 
+
+    It's dark
+
+    It's foreboding in the worst sense of the word 
+
+    [[Continue down the path|continue]]
+
+<</type>>
+
+:: continue
+<<type 40ms >>
+    You keep going
+
+    Staying on the path makes the forest a little less intimidating
+
+    You come over the crest of the hill and there's...
+
+    There's something in the distance 
+
+    Will you check it out?
+
+    [[yes|yes2]]
+    [[no|no2]]
+<</type>>
+
+:: no2 
+<<type 40ms >>
+    There's no turning around
+
+    You have to know what it is
+
+    There's just something about it 
+
+    Just 
+
+    Go
+
+    [[Look|yes2]]
+<</type>>
+
+:: yes2
+<<type 40ms >>
+    You start walking over the hill
+
+    You start running
+
+    You get to the top and it's 
+
+    It's a
+
+    What the hell is it?
+
+    Flying saucer?
+
+    UFO?
+
+    Spaceship?
+
+    You can't believe what you're looking at
+
+    [[Examine|examine]]
+<</type>>
 
 
 
@@ -438,7 +506,73 @@ UFO
 
 <</type>>
 
-:: Outside 
+:: outside 
 <<type 40ms >>
     It's an unfourtunately beautiful day, you were hoping for an excuse to go back inside 
+
+    You walk down the path away from the house
+
+    The forest that surrounds the cottage is terrifying 
+
+    It's dark
+
+    It's foreboding in the worst sense of the word 
+
+    [[Continue down the path|continue]]
+
 <</type>>
+
+:: continue
+<<type 40ms >>
+    You keep going
+
+    Staying on the path makes the forest a little less intimidating
+
+    You come over the crest of the hill and there's...
+
+    There's something in the distance 
+
+    Will you check it out?
+
+    [[yes|yes2]]
+    [[no|no2]]
+<</type>>
+
+:: no2 
+<<type 40ms >>
+    There's no turning around
+
+    You have to know what it is
+
+    There's just something about it 
+
+    Just 
+
+    Go
+
+    [[Look|yes2]]
+<</type>>
+
+:: yes2
+<<type 40ms >>
+    You start walking over the hill
+
+    You start running
+
+    You get to the top and it's 
+
+    It's a
+
+    What the hell is it?
+
+    Flying saucer?
+
+    UFO?
+
+    Spaceship?
+
+    You can't believe what you're looking at
+
+    [[Examine|examine]]
+<</type>>
+
